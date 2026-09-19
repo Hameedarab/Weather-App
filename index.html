@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="opacityDiv">
+        <nav>
+            <div class="logo"></div>
+        </nav>
+        <main>
+            <div class="mianTempr">
+                <div class="main"></div>
+                <span id="cityName"></span>
+                <div class="temp"></div>
+                <div class="description"></div>
+            </div>
+        </main>
+
+        <!-- sidebar starts here -->
+        <div class="sidebar_section">
+            <div class="humidityBox">
+                <span id="title">Humidity</span>
+                <div class="humdty"></div>
+            </div>
+            <div class="airPressureBox">
+                <span id="title">Air Pressure</span>
+                <div class="airPr"></div>
+            </div>
+            <div class="countryBox">
+                <span id="title">Country</span>
+                <div class="country">
+                    <input type="text" placeholder="Enter Your Country Name">
+                    
+                    <button class="btn">Generat</button>
+                </div>
+            </div>
+            <div class="windSpeedBox">
+                <span id="title">Wind Speed</span>
+                <div class="wndSpd"></div>
+            </div>
+        </div>
+
+        <!-- Footer starts here -->
+        <footer>
+            <div class="feelsLikeBox">
+                <span id="title">Feels like</span>
+                <div class="feelsLike"></div>
+            </div>
+            <div class="maxTem">
+                <span id="title">Maximum</span>
+                <div class="max_tem"></div>
+            </div>
+            <div class="minTem">
+                <span id="title">Minimum</span>
+                <div class="min_tem"></div>
+            </div>
+            <div class="seaLevelBox">
+                <span id="title">Sea level</span>
+                <div class="seaLevel"></div>
+            </div>
+        </footer>
+    </div>
+    <script src="weather_app.js"></script>
+</body>
+
+</html>
